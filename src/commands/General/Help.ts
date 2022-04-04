@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
             const n = [
-            'https://telegra.ph/file/b5851a62e390b3e3acfe3.mp4'
+            'https://telegra.ph/file/aa66ff8c6c9dd90d06055.mp4'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
 	if (!parsedArgs.joined) {
@@ -43,12 +43,12 @@ export default class Command extends BaseCommand {
 				}
 			}
             let text = `
-╭─ Kaizoku Ou Ni Ore Wa Naru 
+Hello it's me futaba 💖💖
 │⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│⋊ ℕ𝕒𝕞𝕖: ONE PIECE 🏴‍☠️☠️
+│⋊ ℕ𝕒𝕞𝕖: Rhozh futaba 💖💖
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
 │⋊ 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod*
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://chat.whatsapp.com/HIt2mmeCX6l9CCO0wiC5J3
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://www.facebook.com/groups/600441174428472/?ref=share
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -60,7 +60,7 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
- ──❅┈[ luffy bot ]┈❅───
+ ──❅┈[ futaba bot ]┈❅───
 ┌────────────┈❅
 │   🧨 akuma
 │   ©️ ՏYᑎTᕼᗴՏIᘔᗴᗪ IᑎᖴIᑎITY
