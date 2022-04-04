@@ -95,11 +95,11 @@ export default class MessageHandler {
 			)}`
 		   );
 			if (!command)
-			return void M.reply( await request.buffer(`https://telegra.ph/file/6d0addaf8fb59200ffc0d.mp4`),
+			return void M.reply( await request.buffer(`https://telegra.ph/file/ed07d374b13b11b250b71.mp4`),
                     MessageType.video,
                     Mimetype.gif,
                     undefined,
-                    `Huh , You want me to give you directions or something? use *${this.client.config.prefix}help*`,
+                    `"HUH Arghhhh we don't have time for this". use *${this.client.config.prefix}help*`,
                     undefined
                 )
 		const user = await this.client.getUser(M.sender.jid);
