@@ -34,11 +34,11 @@ export default class Command extends BaseCommand {
 			return `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
 		};
 		const uptime = () => formatTime(process.uptime());
-		await M.reply(await request.buffer(`https://c.tenor.com/a3GRzZhmZ94AAAPo/futaba-sakura-futaba.mp4`),
+		await M.reply(await request.buffer(`https://telegra.ph/file/9e1e035be514052e12eeb.mp4`),
             MessageType.video,
             Mimetype.gif,
             undefined,
-            `━━━❰ futaba💖💖 ❱━━━\n\n🔮 *Groups: ${
+            `━━━❰ 🐲 *𝙉𝘼𝙏𝙎𝙐* 🐲 ❱━━━\n\n🔮 *Groups: ${
 				chats.length
 					}*\n\n🚦 *Uptime: ${uptime()}*\n\n🦆 *My cute people: ${users}*\n\n💢 *Banned Users: ${uban}*\n\n\n`,
                     undefined
