@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
             const n = [
-            'https://telegra.ph/file/aa66ff8c6c9dd90d06055.mp4'
+            'https://telegra.ph/file/5eaa30bafead90b0b07b3.mp4'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
 	if (!parsedArgs.joined) {
@@ -43,12 +43,12 @@ export default class Command extends BaseCommand {
 				}
 			}
             let text = `
-Hello it's me futaba 💖💖
+🔥𝙃𝙀𝙇𝙇𝙊🔥𝑴𝒚 𝒏𝒂𝒎𝒆 𝒊𝒔 𝙉𝘼𝙏𝙎𝙐🐉🔥
 │⋊ 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│⋊ ℕ𝕒𝕞𝕖: Rhozh futaba 💖💖
+│⋊ ℕ𝕒𝕞𝕖: 𝙉𝘼𝙏𝙎𝙐🐉🔥
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
-│⋊ 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod*
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://www.facebook.com/groups/600441174428472/?ref=share
+
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝕆𝕎ℕ𝔼ℝ: 🆉🅴🆁🅾😈
 ╰────────────┈平和                            \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -60,9 +60,9 @@ Hello it's me futaba 💖💖
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
- ──❅┈[ futaba bot ]┈❅───
+ ──❅┈[ 𝙽𝙰𝚃𝚂𝚄 𝙱𝙾𝚃 ]┈❅───
 ┌────────────┈❅
-│   🧨 akuma
+│   🧨 🆉🅴🆁🅾😈
 │   ©️ ՏYᑎTᕼᗴՏIᘔᗴᗪ IᑎᖴIᑎITY
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅
