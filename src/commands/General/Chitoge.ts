@@ -9,17 +9,17 @@ import { ISimplifiedMessage } from "../../typings";
 export default class Command extends BaseCommand {
 	constructor(client: WAClient, handler: MessageHandler) {
 		super(client, handler, {
-			command: "futaba",
+			command: "natsu",
 			description: "Displays the info",
 			category: "general",
-			usage: `${client.config.prefix}futaba`,
+			usage: `${client.config.prefix}natsu`,
 			baseXp: 2000,
 		});
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const chitoge =
-			"https://c.tenor.com/UkycajyOXwAAAAPo/persona-futaba.mp4";
+			"https://c.tenor.com/awJcoaLVTaoAAAPo/natsu.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: chitoge },
@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `💖 *futaba* 💖\n\n🍀 *Description: A WhatsApp Bot With Rich NSFW features based on chitoge.*\n\n🌐 *OFFICIAL BOT URL: https://github.com/animeland/Yotsuba-Bot.git* \n\n 📒 *Guide: https://github.com/animeland/Yotsuba-Bot.git* \n\n 👾 *BOT URL:https://github.com/animeland/Yotsuba-Bot.git* \n`,
+				caption: `🔥 *natsu* 🔥\n\n🍀 *Description: A WhatsApp Bot With Rich NSFW features based on chitoge.*\n\n🌐 *OFFICIAL BOT URL: https://github.com/animeland/Yotsuba-Bot.git* \n\n 📒 *Guide: https://github.com/animeland/Yotsuba-Bot.git* \n\n 👾 *BOT URL:https://github.com/animeland/Yotsuba-Bot.git* \n`,
 			}
 		);
 	};
