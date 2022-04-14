@@ -29,10 +29,10 @@ export default class Command extends BaseCommand {
 			return void (await M.reply(`Please provide the Broadcast Message.`));
 		const term = joined.trim();
 		const gifs = [
-			"https://c.tenor.com/8epQVXO6vOwAAAPo/futaba-ao.mp4",
+			"https://c.tenor.com/_8Yhn1O5qDgAAAPo/natsu-dragneel-smile.mp4",
 			
 			
-			"https://c.tenor.com/gYG3AK4SJ0kAAAPo/persona5-futaba-sakura.mp4",
+			"https://c.tenor.com/m9ipnIinnLIAAAPo/fairy-tail-natsu-dragneel.mp4",
 		];
 		const selected = gifs[Math.floor(Math.random() * gifs.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -43,7 +43,7 @@ export default class Command extends BaseCommand {
 			.map((jids) => (jids.includes("g.us") ? jids : null))
 			.filter((v) => v);
 		for (let i = 0; i < chats.length; i++) {
-			const text = `*💖「FUTABA BROADCAST」💖*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
+			const text = `*🔥「NATSU BROADCAST」🔥*\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
 			this.client.sendMessage(chats[i], { url: selected }, MessageType.video, {
 				mimetype: Mimetype.gif,
 				caption: `${text}`,
