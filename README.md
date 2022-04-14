@@ -1,7 +1,7 @@
 <div align="center">
-<a href="https://github.com/iamherok/Cara_public"><img src="https://i.ibb.co/9VsYznX/13e43d68343a29c4b821668042b3bfda.jpg" alt="chitoge" border="0"></a>
+<a href="https://github.com/iamherok/Cara_public"><img src="https://i.ibb.co/4pQCDGN/IMG-20220407-WA0371.jpg" alt="chitoge" border="0"></a>
 
-# **futaba : A WhatsApp BOT WITH RICH NSFW FEATURES BASED ON <a href="https://github.com/ShineiIchijo/Chitoge">CHITOGE</er></a></h1>**
+# **NATSU : A WhatsApp BOT WITH RICH NSFW FEATURES BASED ON <a href="https://github.com/ShineiIchijo/Chitoge">CHITOGE</er></a></h1>**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/shineiichijo/chitoge)
 
