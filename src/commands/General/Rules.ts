@@ -14,12 +14,12 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            'https://c.tenor.com/fep5_H3WNy8AAAPo/haki-luffy.mp4'
+            'https://telegra.ph/file/9e1e035be514052e12eeb.mp4'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {
             mimetype: Mimetype.gif,
-            caption: `_*----💖[Rules]💖----*_\n\n❌*DONT ASK FOR THE SCRIPT*🚫\n*>>>* use $support to get the Official group link in your dm\n*--->*  If you want to chat with Star you can use *Don't chat in private bot can't chat in Pm\n*--->* If you want to add futaba in your group the contact the owner by *$owner/$mods* \n*--->* Dont use wrong command, use the command given in the *help list* \n*--->* Dont spam the bot with commands if the bot is not responding, its means the bot maybe offline or facing internet issue. \n*--->* Dont Dm the bot \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫  ` }
+            caption: `_*----🔥[Rules]🔥----*_\n\n❌*DONT ASK FOR THE SCRIPT*🚫\n*>>>* use $support to get the Official group link in your dm\n*--->*  If you want to chat with Star you can use *Don't chat in private bot can't chat in Pm\n*--->* If you want to add 𝙽𝙰𝚃𝚂𝚄 in your group the contact the owner by *$owner/$mods* \n*--->* Dont use wrong command, use the command given in the *help list* \n*--->* Dont spam the bot with commands if the bot is not responding, its means the bot maybe offline or facing internet issue. \n*--->* Dont Dm the bot \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BAN SOON* 🚫  ` }
         )
     }
 }
